@@ -1,11 +1,12 @@
 import "./App.css";
+import React from "react";
+import Register from "./components/Register";
+import HookExam from "./components/HookExam";
 
-function App() {
+export default function App() {
   return (
     <>
-      <h1>헬로 리액트!</h1>
+      <HookExam></HookExam>
     </>
   );
 }
-
-export default App;

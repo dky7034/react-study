@@ -1,12 +1,10 @@
-import "./App.css";
 import React from "react";
-import Register from "./components/Register";
-import HookExam from "./components/HookExam";
+import KeyPerformanceTest from "./components/KeyPerformanceTest";
 
 export default function App() {
   return (
-    <>
-      <HookExam></HookExam>
-    </>
+    <div>
+      <KeyPerformanceTest />
+    </div>
   );
 }
